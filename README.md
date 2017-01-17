@@ -21,7 +21,7 @@ The project has been compiled and tested on Command Prompt, IntelliJ and Eclipse
 
 To execute the program:
 
-1. Server
+Server
 
 java Server
 
@@ -33,7 +33,7 @@ java Server <port_no>
 
 Eg: java Server 12345
 
-2. Client
+Client
 
 java Client
 
@@ -55,37 +55,28 @@ As soon as the client joins it would ask to enter the name as:
 
 To run the functionalities:
 
-1. broadcast message command: ‘broadcast message <text_message>’
-
-Eg: broadcast message hello
-
-
-
-2. broadcast file command: ‘broadcast file <file_name>'
-Eg: broadcast file input.txt
+1. broadcast message command: ‘broadcast message <text_message>’ Eg: broadcast message hello
+2. broadcast file command: ‘broadcast file <file_name>' Eg: broadcast file input.txt
 
 (The file should exist in the same sub-folder as the client program)
 
-
-
 3. unicast message command: ‘unicast message to <client_name> <text_message>'
 
-Eg: unicast message to Harshita hello
+Eg: unicast message to client1 hello
 
 
 
-4. unicast file command: ‘unicast file to <client_name> <file_name>’
+unicast file command: ‘unicast file to <client_name> <file_name>’
 
-Eg: unicast file to Harshita input.txt
-
-
-
-5. blockcast message command: ‘blockcast message except <client_name> <text_message>’
-
-Eg: blockcast message except Arunima hello 
+Eg: unicast file to client2 input.txt
 
 
 
-6. blockcast file command: ‘blockcast file except <client_name> <file_name>’
+blockcast message command: ‘blockcast message except <client_name> <text_message>’
 
-Eg: blockcast file except Arunima input.txt
+Eg: blockcast message except client3 hello 
+
+
+blockcast file command: ‘blockcast file except <client_name> <file_name>’
+
+Eg: blockcast file except client4 input.txt
